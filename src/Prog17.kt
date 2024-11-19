@@ -8,8 +8,8 @@ fun main()
 
     for (i in 1..n1)
     {
-        val element = readln()
-        set1.add(element)
+        val el = readln()
+        set1.add(el)
     }
     println("введите второе множество:")
     val n2 = readln().toInt()
@@ -17,14 +17,14 @@ fun main()
 
     for (i in 1..n2)
     {
-        val element = readln()
-        set2.add(element)
+        val el = readln()
+        set2.add(el)
     }
     val union = set1.union(set2) //ф-ия для создания нового набора, содержащего все
 
     println("объединение: ")
-    for (element in union)
+    for (el in union)
     {
-        println(element)
+        println(el)
     }
 }
