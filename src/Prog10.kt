@@ -11,9 +11,9 @@ fun main()
         println("вы бейбик")
     } else if (age in 13..17){
         println("вы тинэйджер")
-    } else if (age in 18..64){
+    } else if (age in 18..55){
         println("вы adult")
-    } else if (age in 65..120){
+    } else if (age in 56..120){
         println("вы старик")
     } else {
         println("некорректный возраст")
