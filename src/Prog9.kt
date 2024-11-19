@@ -3,12 +3,12 @@ package KotlinBase
 fun main()
 {
     println("введите ваше число")
-    val number = readln().toIntOrNull()
-    if (number == null)
+    val num = readln().toIntOrNull()
+    if (num == null)
     {
         println("введено некорректное значение")
     } else {
-        if (number % 2 == 0)
+        if (num % 2 == 0)
         {
             println("число явл чет")
         } else {
