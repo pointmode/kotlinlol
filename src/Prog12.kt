@@ -3,8 +3,8 @@ package KotlinBase
 fun main()
 {
     println("введите число:")
-    val number = readln().toInt()
-    for (i in 1 until number) {
+    val num = readln().toInt()
+    for (i in 1 until num) {
         println(i * 2)
     }
 }
