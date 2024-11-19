@@ -1,6 +1,5 @@
 package KotlinBase
 
-
 fun main()
 {
     println("введите кол-во элементов 1го мн-ва:")
@@ -10,10 +9,10 @@ fun main()
     println("введите элементы 1го мн-ва (каждый на новой строке):")
     repeat(n)
     {
-        val element = readLine()?.trim()
-        if (element != null)
+        val el = readLine()?.trim()
+        if (el != null)
         {
-            firstSet.add(element)
+            firstSet.add(el)
         }
     }
     println("введите кол-во элементов 2го мн-ва:")
@@ -23,10 +22,10 @@ fun main()
     println("введите элементы 2го мн-ва (каждый на новой строке):")
     repeat(m)
     {
-        val element = readLine()?.trim()
-        if (element != null)
+        val el = readLine()?.trim()
+        if (el != null)
         {
-            secondSet.add(element)
+            secondSet.add(el)
         }
     }
     val commonElements = firstSet.intersect(secondSet) //находим общие эл-ты
@@ -34,9 +33,9 @@ fun main()
     println("общие элементы :D") //выводим рез-тат
     if (commonElements.isNotEmpty())
     {
-        for (element in commonElements)
+        for (el in commonElements)
         {
-            println(element)
+            println(el)
         }
     } else {
         println("нет общих элементов ;(")
