@@ -9,15 +9,15 @@ fun main()
 
     for (i in 1..n)
     {
-        val element = readln()
-        if (!set.contains(element))
+        val el = readln() //el = element
+        if (!set.contains(el))
         {
-            set.add(element)
-            list.add(element)
+            set.add(el)
+            list.add(el)
         }
     }
-    for (element in list)
+    for (el in list)
     {
-        println(element)
+        println(el)
     }
 }
