@@ -2,11 +2,11 @@ package KotlinBase
 
 fun main()
 {
-    val first = 4.6
-    val second = 4.2
-    val third = 2.1
+    val fir = 4.6
+    val sec = 4.2
+    val trd = 2.1
 
-    val middle = (first + second + third) / 3
+    val middle = (fir + sec + trd) / 3
 
     println("ср арифм = $middle")
 }
